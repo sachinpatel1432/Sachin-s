@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin Patel | Premium Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="spinner"></div>
+            <h1 class="loader-logo">SP<span>.</span></h1>
+            <div class="progress-bar-wrap"><div class="progress-bar-fill"></div></div>
+        </div>
+    </div>
+
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scrollBar"></div>
+    </div>
+
+    <div class="bg-abstract-containers">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Sachin<span>Patel</span></a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#github" class="nav-link">GitHub</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle Theme" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="section-container hero-grid">
+            <div class="hero-left text-reveal">
+                <h4 class="welcome-text">Welcome to my universe</h4>
+                <h1 class="hero-title">Hi, I'm <span class="gradient-text">Sachin Patel</span></h1>
+                <h2 class="hero-subtitle">I am a <span id="typing-text" class="typing-text"></span><span class="cursor-pipe">|</span></h2>
+                <p class="hero-description">Building Modern Web Applications with Clean Code & Creative Design. Specialized in turning complex backend structures and advanced interactive frontends into high-performance web systems.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Hire Me <i class="fas fa-paper-plane"></i></a>
+                    <a href="Final_Resume.pdf" class="btn btn-secondary" download>Download Resume <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-img-container">
+                    <div class="hero-glow"></div>
+                    <img src="sachin_4.png" alt="Sachin Patel Profile" class="hero-profile-img">
+                    <div class="floating-icon icon-1"><i class="fab fa-react"></i></div>
+                    <div class="floating-icon icon-2"><i class="fab fa-node-js"></i></div>
+                    <div class="floating-icon icon-3"><i class="fab fa-js"></i></div>
+                    <div class="floating-icon icon-4"><i class="fas fa-database"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section scroll-reveal">
+        <div class="section-container">
+            <h2 class="section-heading text-center">About <span>Me</span></h2>
+            <div class="about-grid">
+                <div class="about-left">
+                    <div class="about-img-wrapper">
+                        <img src="sachin_3.png" alt="Sachin Patel Creative Portrait" class="about-img">
+                    </div>
+                </div>
+                <div class="about-right">
+                    <h3>Full Stack MERN Developer</h3>
+                    <p class="career-objective"><strong>Career Objective:</strong> Passionate MERN Stack Developer focused on building scalable, responsive, and user-friendly web applications while continuously learning modern technologies.</p>
+                    <p class="bio-text">I leverage engineering methodologies learned during my B.Tech to construct clean architectural systems. Transforming UX architectures into bulletproof production reality is my core drive.</p>
+                    
+                    <div class="personal-info-grid">
+                        <div class="info-card"><i class="fas fa-user"></i> <span><strong>Name:</strong> Sachin Patel</span></div>
+                        <div class="info-card"><i class="fas fa-graduation-cap"></i> <span><strong>Degree:</strong> B.Tech (CSE)</span></div>
+                        <div class="info-card"><i class="fas fa-map-marker-alt"></i> <span><strong>Location:</strong> Raebareli, UP, India</span></div>
+                        <div class="info-card"><i class="fas fa-envelope"></i> <span><strong>Email:</strong> sp562077@gmail.com</span></div>
+                        <div class="info-card"><i class="fas fa-phone-alt"></i> <span><strong>Phone:</strong> +91 8303113553</span></div>
+                    </div>
+
+                    <div class="counter-container">
+                        <div class="counter-box"><h4 class="counter" data-target="7">0</h4><p>Projects Completed</p></div>
+                        <div class="counter-box"><h4 class="counter" data-target="12">0</h4><p>Technologies</p></div>
+                        <div class="counter-box"><h4 class="counter" data-target="1500">0</h4><p>Learning Hours</p></div>
+                        <div class="counter-box"><h4 class="counter" data-target="5">0</h4><p>Certifications</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section scroll-reveal">
+        <div class="section-container">
+            <h2 class="section-heading text-center">Technical <span>Skills</span></h2>
+            
+            <div class="skills-grid">
+                <div class="skills-left-panel">
+                    <h3>Core Performance Indicators</h3>
+                    <div class="skill-bar-item">
+                        <div class="skill-info"><span>Frontend Architecture</span><span>90%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 0;" data-width="90%"></div></div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-info"><span>Backend Rest API Design</span><span>85%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 0;" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-info"><span>Database Modeling</span><span>80%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 0;" data-width="80%"></div></div>
+                    </div>
+
+                    <div class="circular-skills-container">
+                        <div class="circle-skill">
+                            <div class="circle-outer" data-percent="95">
+                                <div class="circle-inner"><span class="circle-value">0%</span></div>
+                            </div>
+                            <p>Logic & Algorithmic Design</p>
+                        </div>
+                        <div class="circle-skill">
+                            <div class="circle-outer" data-percent="88">
+                                <div class="circle-inner"><span class="circle-value">0%</span></div>
+                            </div>
+                            <p>UI Responsive Fluidity</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-right-panel">
+                    <h3>Technology Stack Directory</h3>
+                    <div class="tech-cards-wrapper">
+                        <div class="tech-card" data-tilt><i class="fab fa-html5 html-icon"></i><h4>HTML5</h4><p>Structure</p></div>
+                        <div class="tech-card" data-tilt><i class="fab fa-css3-alt css-icon"></i><h4>CSS3</h4><p>Layouts</p></div>
+                        <div class="tech-card" data-tilt><i class="fab fa-js javascript-icon"></i><h4>JavaScript</h4><p>ES6/Async Native</p></div>
+                        <div class="tech-card" data-tilt><i class="fab fa-bootstrap bootstrap-icon"></i><h4>Bootstrap</h4><p>Framework</p></div>
+                        <div class="tech-card" data-tilt><i class="fas fa-code ejs-icon"></i><h4>EJS</h4><p>Templating</p></div>
+                        <div class="tech-card" data-tilt><i class="fab fa-node-js node-icon"></i><h4>Node.js</h4><p>Runtime</p></div>
+                        <div class="tech-card" data-tilt><i class="fas fa-server express-icon"></i><h4>Express.js</h4><p>API Engine</p></div>
+                        <div class="tech-card" data-tilt><i class="fas fa-leaf mongo-icon"></i><h4>MongoDB</h4><p>NoSQL Engine</p></div>
+                        <div class="tech-card" data-tilt><i class="fas fa-project-diagram mongoose-icon"></i><h4>Mongoose</h4><p>ODM Mapping</p></div>
+                        <div class="tech-card" data-tilt><i class="fab fa-git-alt git-icon"></i><h4>Git</h4><p>Version Sync</p></div>
+                        <div class="tech-card" data-tilt><i class="fab fa-github github-tech-icon"></i><h4>GitHub</h4><p>Cloud Storage</p></div>
+                        <div class="tech-card" data-tilt><i class="fas fa-laptop-code vs-icon"></i><h4>VS Code</h4><p>IDE Environment</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section scroll-reveal">
+        <div class="section-container">
+            <h2 class="section-heading text-center">My Ecosystem <span>Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Frontend Development</h3>
+                    <p>Constructing modular, blazing-fast web architectures using semantic structures, advanced CSS patterns, and rich UI interactions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-terminal"></i></div>
+                    <h3>Backend Development</h3>
+                    <p>Architecting secure, enterprise-ready, fast REST APIs with optimized algorithmic routines and robust express structures.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-cubes"></i></div>
+                    <h3>MERN Development</h3>
+                    <p>End-to-end engineered full stack setups combining fast data pipelines via MongoDB with optimized server environments.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Responsive Design</h3>
+                    <p>Fluid user experience designs engineered across massive monitor grids down to micro viewport smartphones flawlessly.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>API Integration</h3>
+                    <p>Clean external structural bindings, mapping data securely and effectively across distinct asynchronous networks.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Website Maintenance</h3>
+                    <p>System structural evaluations, algorithmic refactoring, performance tuning, and asset compression upgrades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section scroll-reveal">
+        <div class="section-container">
+            <h2 class="section-heading text-center">My Creative <span>Projects</span></h2>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Ecosystems</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="javascript">JavaScript</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card-item" data-category="fullstack">
+                    <div class="project-img-box">
+                        <img src="001.png" alt="JourneyHub Image">
+                        <div class="project-overlay">
+                            <button class="view-details-btn" data-project="p1">View Structural Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info-content">
+                        <span class="project-badge">MERN FullStack</span>
+                        <h3>JourneyHub</h3>
+                        <p>Complete multi-tier enterprise structural model for complex dynamic travel scheduling, asset tracking, and booking matrixes.</p>
+                        <div class="project-tech-tags"><span>MongoDB</span><span>Express</span><span>React</span><span>Node</span></div>
+                        <div class="project-links">
+                            <a href="https://journeyhub-zsgq.onrender.com/" class="proj-link-btn primary-proj-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/sachinpatel1432" class="proj-link-btn"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card-item" data-category="fullstack">
+                    <div class="project-img-box">
+                        <img src="002.png" alt="Work Bridge Image">
+                        <div class="project-overlay">
+                            <button class="view-details-btn" data-project="p2">View Structural Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info-content">
+                        <span class="project-badge">Node / EJS Stack</span>
+                        <h3>Work Bridge</h3>
+                        <p>A multi-role labor procurement system mapping local specialized construction groups directly to commercial contractor jobs.</p>
+                        <div class="project-tech-tags"><span>Node.js</span><span>Express</span><span>MongoDB</span><span>EJS</span></div>
+                        <div class="project-links">
+                            <a href="https://workbridge-9izo.onrender.com/" class="proj-link-btn primary-proj-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/sachinpatel1432" class="proj-link-btn"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="project-card-item" data-category="mern">
+                    <div class="project-img-box">
+                    <img src="008.png" alt="Prescripto Image">
+                    <div class="project-overlay">
+                    <button class="view-details-btn" data-project="p8">View Structural Details</button>
+                    </div>
+                </div>
+
+                <div class="project-info-content">
+                    <span class="project-badge">MERN Healthcare Platform</span>
+
+                    <h3>Prescripto</h3>
+
+                    <p>
+                        Full-stack doctor appointment booking platform featuring secure authentication,
+                        appointment scheduling, doctor management, patient dashboards, and responsive healthcare workflows.
+                    </p>
+
+                    <div class="project-tech-tags">
+                        <span>MongoDB</span>
+                        <span>Express.js</span>
+                        <span>React.js</span>
+                        <span>Node.js</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#" class="proj-link-btn primary-proj-btn">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+
+                        <a href="https://github.com/sachinpatel1432" class="proj-link-btn">
+                            <i class="fab fa-github"></i> Source
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+                <div class="project-card-item" data-category="frontend">
+                    <div class="project-img-box">
+                        <img src="003.png" alt="Kashi Welfare Image">
+                        <div class="project-overlay">
+                            <button class="view-details-btn" data-project="p3">View Structural Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info-content">
+                        <span class="project-badge">NGO Client Build</span>
+                        <h3>Kashi Welfare Society</h3>
+                        <p>Interactive web resource mapping dashboard designed safely for global donation channels, systemic asset validation, and modern layout management.</p>
+                        <div class="project-tech-tags"><span>HTML5</span><span>CSS3</span><span>JS Vanilla</span></div>
+                        <div class="project-links">
+                            <a href="#" class="proj-link-btn primary-proj-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/sachinpatel1432" class="proj-link-btn"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card-item" data-category="frontend">
+                    <div class="project-img-box">
+                        <img src="004.png" alt="Spotify Clone Image">
+                        <div class="project-overlay">
+                            <button class="view-details-btn" data-project="p4">View Structural Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info-content">
+                        <span class="project-badge">UI Framework Build</span>
+                        <h3>Spotify Clone</h3>
+                        <p>High fidelity sound rendering replication interface mimicking absolute modern desktop application workflows, queues, and playlist mechanics.</p>
+                        <div class="project-tech-tags"><span>HTML5</span><span>CSS Advanced</span><span>JS Engine</span></div>
+                        <div class="project-links">
+                            <a href="#" class="proj-link-btn primary-proj-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/sachinpatel1432" class="proj-link-btn"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card-item" data-category="frontend">
+                    <div class="project-img-box">
+                        <img src="005.png" alt="Amazon Clone Image">
+                        <div class="project-overlay">
+                            <button class="view-details-btn" data-project="p5">View Structural Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info-content">
+                        <span class="project-badge">E-Commerce UI Matrix</span>
+                        <h3>Amazon Clone</h3>
+                        <p>Complex responsive layout mapping nested product filters, operational cart updates, fluid item views, and structural checkout pathways.</p>
+                        <div class="project-tech-tags"><span>HTML5</span><span>CSS Flexbox</span><span>JS Core</span></div>
+                        <div class="project-links">
+                            <a href="#" class="proj-link-btn primary-proj-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/sachinpatel1432" class="proj-link-btn"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card-item" data-category="javascript">
+                    <div class="project-img-box">
+                        <img src="006.png" alt="Simon Says Image">
+                        <div class="project-overlay">
+                            <button class="view-details-btn" data-project="p6">View Structural Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info-content">
+                        <span class="project-badge">Algorithmic State Logic</span>
+                        <h3>Simon Says Game</h3>
+                        <p>Algorithmic sequence matching interface scoring user memory state mechanics against automated matrix acceleration systems.</p>
+                        <div class="project-tech-tags"><span>JavaScript Engine</span><span>DOM Logic</span><span>CSS Animation</span></div>
+                        <div class="project-links">
+                            <a href="#" class="proj-link-btn primary-proj-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/sachinpatel1432" class="proj-link-btn"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card-item" data-category="javascript">
+                    <div class="project-img-box">
+                        <img src="007.png" alt="Mini Calculator Image">
+                        <div class="project-overlay">
+                            <button class="view-details-btn" data-project="p7">View Structural Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info-content">
+                        <span class="project-badge">Core Engine Logic</span>
+                        <h3>Mini Calculator</h3>
+                        <p>Mathematical evaluator system parsing programmatic string operations using precise layout control systems and operational styling variables.</p>
+                        <div class="project-tech-tags"><span>JavaScript</span><span>RegEx Parse</span><span>CSS UI</span></div>
+                        <div class="project-links">
+                            <a href="#" class="proj-link-btn primary-proj-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/sachinpatel1432" class="proj-link-btn"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="project-modal" id="projectModal">
+        <div class="modal-content">
+            <span class="close-modal-btn">&times;</span>
+            <div class="modal-body-layout">
+                <img id="modal-img" src="" alt="Modal Project Image">
+                <div class="modal-text-pane">
+                    <h3 id="modal-title">Project Title</h3>
+                    <p id="modal-desc">Project details structure breakdown...</p>
+                    <div id="modal-tech" class="project-tech-tags"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="experience" class="timeline-section scroll-reveal">
+        <div class="section-container">
+            <h2 class="section-heading text-center">Professional <span>Timeline</span></h2>
+            <p class="section-subtext text-center"><i class="fas fa-info-circle"></i> Note: The following items showcase representative industrial application frameworks for production engineering.</p>
+            <div class="timeline-wrapper">
+                <div class="timeline-item left-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2025 - Present</span>
+                        <h3>Full Stack Developer (Trainee/Freelance)</h3>
+                        <h4>Independent Operations / Startups</h4>
+                        <p>Engineering client web applications from basic concept outlines into high-fidelity functional products using MongoDB, Express, and modern styling solutions. Optimizing algorithmic query pipelines for fast responses.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2024</span>
+                        <h3>MERN Software Architecture Engineering Internship</h3>
+                        <h4>Tech Incubator Lab Portfolio (Sample Placeholder)</h4>
+                        <p>Developed API configurations, implemented strict user data management rules, reduced layout data bundle sizes, and verified web endpoint responses across automated test routines.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="timeline-section scroll-reveal spec-edu-bg">
+        <div class="section-container">
+            <h2 class="section-heading text-center">Academic <span>Foundation</span></h2>
+            <div class="timeline-wrapper">
+                <div class="timeline-item center-axis">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2022 - 2026</span>
+                        <h3>B.Tech (Computer Science & Engineering)</h3>
+                        <h4>Allenhouse Institute of Technology, Kanpur</h4>
+                        <p>Acquired strong foundational expertise across Data Structures, Advanced Database Optimization Engines, Computer Operating Systems, and Advanced Distributed Architectures.</p>
+                        <div class="academic-achieve">
+                            <h5>Academic Milestones:</h5>
+                            <ul>
+                                <li><i class="fas fa-star"></i> Maintained top-tier academic standing within core technology engineering divisions.</li>
+                                <li><i class="fas fa-star"></i> Designed and presented core architectural paradigms for internal software development showcases.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements-section scroll-reveal">
+        <div class="section-container">
+            <h2 class="section-heading text-center">Key <span>Achievements</span></h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="ach-icon-box"><i class="fas fa-trophy"></i></div>
+                    <h3>Hackathon Top Contributor</h3>
+                    <p>Designed and built an end-to-end operational public monitoring system prototype within an accelerated 36-hour sprint window.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="ach-icon-box"><i class="fas fa-medal"></i></div>
+                    <h3>Open Source Architect</h3>
+                    <p>Contributed modular UI elements and performance optimizations to core tracking libraries used by student developers.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="ach-icon-box"><i class="fas fa-certificate"></i></div>
+                    <h3>Coding Competency Rank</h3>
+                    <p>Ranked in top structural percentiles during algorithmic challenge iterations assessing multi-dimensional logic arrays.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates-section scroll-reveal">
+        <div class="section-container">
+            <h2 class="section-heading text-center">Verified <span>Credentials</span></h2>
+            <div class="certificates-grid">
+                <div class="cert-card">
+                    <div class="cert-img-box">
+                        <img src="001.pdf" alt="MERN Stack Certificate Placeholder">
+                    </div>
+                    <div class="cert-meta">
+                        <h4>Full Stack Development Mastery</h4>
+                        <p>Authorized Issuing Body Placeholder</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-img-box">
+                        <img src="sachin_5.png" alt="001 Certificate Placeholder">
+                    </div>
+                    <div class="cert-meta">
+                        <h4>Advanced JS State Engines</h4>
+                        <p>Authorized Issuing Body Placeholder</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-img-box">
+                        <img src="001.pdf" alt="Frontend Certificate Placeholder">
+                    <div class="cert-meta">
+                        <h4>Node.js, Express & MongoDB Matrix</h4>
+                        <p>Authorized Issuing Body Placeholder</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="github" class="github-section scroll-reveal">
+        <div class="section-container">
+            <h2 class="section-heading text-center">GitHub <span>Analytics</span></h2>
+            <div class="github-stats-container">
+                <div class="git-stat-card">
+                    <i class="fas fa-folder-open"></i>
+                    <h3 class="counter" data-target="35">0</h3>
+                    <p>Active Repositories</p>
+                </div>
+                <div class="git-stat-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3 class="counter" data-target="740">0</h3>
+                    <p>Yearly Contributions</p>
+                </div>
+                <div class="git-stat-card">
+                    <i class="fas fa-tasks"></i>
+                    <h3 class="counter" data-target="14">0</h3>
+                    <p>Managed Projects</p>
+                </div>
+                <div class="git-stat-card">
+                    <i class="fas fa-star"></i>
+                    <h3 class="counter" data-target="120">0</h3>
+                    <p>Earned Stars</p>
+                </div>
+            </div>
+            <div class="github-mock-board">
+                <h4>System Integration Activity Matrix</h4>
+                <div class="mock-grid-matrix">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section scroll-reveal">
+        <div class="section-container">
+            <h2 class="section-heading text-center">Ecosystem <span>Endorsements</span></h2>
+            <div class="testimonial-slider-container">
+                <div class="testimonial-wrapper-track" id="testimonial-track">
+                    
+                    <div class="testimonial-slide">
+                        <div class="test-quote-icon"><i class="fas fa-quote-right"></i></div>
+                        <p class="test-text">"Sachin engineered our NGO management portal flawlessly. His data structuring decisions and user experience workflow designs significantly improved our daily operational tracking capability."</p>
+                        <div class="test-profile">
+                            <img src="sachin_2.jpg" alt="Testimonial Headshot 1">
+                            <div>
+                                <h4>Executive Director</h4>
+                                <p>Kashi Welfare Society</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="test-quote-icon"><i class="fas fa-quote-right"></i></div>
+                        <p class="test-text">"Sachin's attention to performance optimization and structured clean code patterns is extraordinary. He transformed a highly chaotic database structure into a beautiful, fluid architectural app interface."</p>
+                        <div class="test-profile">
+                            <img src="sachin_5.png" alt="Testimonial Headshot 2">
+                            <div>
+                                <h4>Lead Engineer Specialist</h4>
+                                <p>Tech Incubator Hub Placeholder</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-nav-btn prev-btn" id="prev-slide"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-nav-btn next-btn" id="next-slide"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="slider-dots-indicator" id="slider-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section scroll-reveal">
+        <div class="section-container">
+            <h2 class="section-heading text-center">Initiate <span>Connection</span></h2>
+            <div class="contact-grid">
+                
+                <div class="contact-info-panel">
+                    <h3>Let's Build Something Exceptional</h3>
+                    <p>Whether you're looking to hire an engineer for a technical role, require modern architecture consulting, or want to discuss structural system deployments, get in touch.</p>
+                    
+                    <div class="contact-channels">
+                        <div class="channel-card">
+                            <i class="fas fa-envelope-open-text"></i>
+                            <div>
+                                <h4>Direct Communication</h4>
+                                <p>SP562077@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="channel-card">
+                            <i class="fas fa-phone-volume"></i>
+                            <div>
+                                <h4>Mobile Infrastructure</h4>
+                                <p>+91 8303113553</p>
+                            </div>
+                        </div>
+                        <div class="channel-card">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <div>
+                                <h4>Operational Nexus</h4>
+                                <p>Raebareli, Uttar Pradesh, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social-matrix">
+                        <a href="https://github.com/sachinpatel1432/" aria-label="GitHub Channel" class="social-icon-link"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/sachinpatel1432/" aria-label="LinkedIn Network" class="social-icon-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com/sachinpatelraebareli/" aria-label="Instagram Profile" class="social-icon-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/patelsachin1432/" aria-label="Twitter Profile" class="social-icon-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-panel">
+                    <form id="portfolio-contact-form" class="premium-form" autocomplete="off">
+                        <div class="form-group-row">
+                            <div class="form-control-wrap">
+                                <input type="text" id="form-name" required placeholder=" ">
+                                <label for="form-name">Your Structural Name</label>
+                            </div>
+                            <div class="form-control-wrap">
+                                <input type="email" id="form-email" required placeholder=" ">
+                                <label for="form-email">Your Network Email</label>
+                            </div>
+                        </div>
+                        <div class="form-control-wrap">
+                            <input type="text" id="form-subject" required placeholder=" ">
+                            <label for="form-subject">Connection Target Subject</label>
+                        </div>
+                        <div class="form-control-wrap">
+                            <textarea id="form-message" rows="6" required placeholder=" "></textarea>
+                            <label for="form-message">Detailed System Request Message...</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit-btn">Transmit Message <i class="fas fa-satellite-dish"></i></button>
+                    </form>
+                    <div id="form-status-msg" class="form-status-notification"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="premium-footer">
+        <div class="section-container footer-grid">
+            <div class="footer-brand">
+                <h3>Sachin<span>Patel</span></h3>
+                <p>Architecting production ready full stack solutions with refined modern UI execution layers.</p>
+            </div>
+            <div class="footer-links-group">
+                <h4>System Directory</h4>
+                <div class="footer-links-grid">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Timeline</a>
+                </div>
+            </div>
+            <div class="footer-meta-info">
+                <h4>Status Interface</h4>
+                <p><span class="status-indicator"></span> Open for Professional Opportunities</p>
+                <p>Location Context: Kanpur, India</p>
+            </div>
+        </div>
+        <div class="footer-copyright-bar">
+            <p>&copy; 2026 Sachin Patel. All Architectural Standard Frameworks Reserved.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTopBtn" aria-label="Scroll Back To Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
