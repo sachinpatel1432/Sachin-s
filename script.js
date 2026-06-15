@@ -5,6 +5,13 @@
  * ==========================================================================
  */
 
+window.addEventListener("scroll", () => {
+    if (window.innerWidth <= 768) {
+        if (hamburger) hamburger.classList.remove("active");
+        if (navMenu) navMenu.classList.remove("active");
+    }
+});
+
 document.addEventListener("DOMContentLoaded", () => {
     
     // SYSTEM CONSTANTS & SELECTORS
@@ -413,28 +420,26 @@ document.addEventListener("DOMContentLoaded", () => {
     const interactiveContactForm = document.getElementById("portfolio-contact-form");
     const interactionStatusMessage = document.getElementById("form-status-msg");
 
-    interactiveContactForm.addEventListener("submit", (event) => {
-        event.preventDefault();
-        
-        // Emulated asynchronous network operational pipeline delay
-        interactionStatusMessage.className = "form-status-notification success";
-        interactionStatusMessage.textContent = "Data Pipeline Transmission Success! Message package has been verified.";
-        
-        interactiveContactForm.reset();
-        document.querySelectorAll(".form-control-wrap input, .form-control-wrap textarea").forEach(input => {
-            // Force reset focus context for visual placeholder synchronization
-            input.blur();
+    if (interactiveContactForm) {
+        interactiveContactForm.addEventListener("submit", (event) => {
+            event.preventDefault();
+
+            interactionStatusMessage.className = "form-status-notification success";
+            interactionStatusMessage.textContent =
+                "Data Pipeline Transmission Success! Message package has been verified.";
+
+            interactiveContactForm.reset();
+
+            document
+                .querySelectorAll(".form-control-wrap input, .form-control-wrap textarea")
+                .forEach(input => {
+                    input.blur();
+                });
+
+            setTimeout(() => {
+                interactionStatusMessage.style.display = "none";
+            }, 5000);
         });
-
-        setTimeout(() => {
-            interactionStatusMessage.style.display = "none";
-        }, 5000);
-    });
-});
-
-window.addEventListener("scroll", () => {
-    if(window.innerWidth <= 768){
-        hamburger.classList.remove("active");
-        navMenu.classList.remove("active");
     }
 });
+
