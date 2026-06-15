@@ -5,12 +5,6 @@
  * ==========================================================================
  */
 
-window.addEventListener("scroll", () => {
-    if (window.innerWidth <= 768) {
-        if (hamburger) hamburger.classList.remove("active");
-        if (navMenu) navMenu.classList.remove("active");
-    }
-});
 
 document.addEventListener("DOMContentLoaded", () => {
     
